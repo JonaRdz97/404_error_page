@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&display=swap');
+
+body{
+    font-size: 100%;
+}
+
+footer{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 0px;
+    font-family: 'Inconsolata', monospace, sans-serif;
+    font-weight: 600;
+}
+
+img{
+    display: block;
+    max-width: 27%;
+    max-height: 40%;
+}
+
+#error{
+    font-weight: 700;
+    text-align: center;
+    display: inline-block;
+    font-size: 1em;
+    font-family: 'JetBrains Mono', monospace, sans-serif;
+}
+
+#titulo{
+    font-size: 3em;
+    font-family: 'Bangers', sans-serif;
+}
+
+#content{
+    margin: 5px;
+}
+
+#contenido{
+    font-size: 1.3em;
+    font-family: 'JetBrains Mono',monospace, sans-serif;
+}
+
+button{
+    height: 50px;
+    font-size: 1em;
+    font-family: 'JetBrains Mono',monospace,sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 1024px) and (max-height: 1900px){
+    #titulo{
+        text-align: center;
+        font-size: 2em;
+    }
+    #contenido{
+        text-align: center;
+        font-size: 1em;
+    }
+
+    #error{
+        font-size: .8em;
+    }
+
+    img{
+        max-width: 30%;
+        max-height: 40%;
+        margin: 10px 35%;
+    }
+
+    button{
+        margin: auto 30%;
+        width: 40%;
+        font-size: .8em;
+        min-height: 50px;
+    }
+
+    #content{
+        margin: 50px 5px;
+        width: auto;
+        height: auto;
+    }
+
+    footer{
+        font-size: 80%;
+    }
+}
+
+@media screen and (min-width: 1025px){
+    #content{
+        margin-top: 8%;
+        display: inline-flex;
+        width: 95%;
+    }
+    
+    img{
+        margin-left: 20%;
+        display: inline;
+    }
+    
+    #texto{
+        margin-left: 30px;
+        text-align: justify;
+        padding: 5px;
+    }
+    
+    #contenido{
+        margin-bottom: 7%;
+    }
+    
+}
+    
